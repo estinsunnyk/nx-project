@@ -8,6 +8,9 @@
     },
     {
       "path": "./apps/nx-project-app"
+    },
+    {
+      "path": "./libs/ui-components/button"
     }
   ]
 }
