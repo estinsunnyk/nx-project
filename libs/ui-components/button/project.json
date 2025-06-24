@@ -1,0 +1,16 @@
+{
+  "name": "@es-nx-workspace/ui-components-button",
+  "targets": {
+    "build": {
+      "executor": "@nx/rollup:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/ui-components/button",
+        "main": "libs/ui-components/button/src/index.ts",
+        "config": "libs/ui-components/button/rollup.config.cjs",
+        "tsConfig": "libs/ui-components/button/tsconfig.lib.json",
+        "project": "libs/ui-components/button/package.json"
+      }
+    }
+  }
+} 
